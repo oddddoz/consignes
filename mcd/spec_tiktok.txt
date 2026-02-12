@@ -1,0 +1,22 @@
+Contexte
+Créer un mini-système inspiré de TikTok pour aider les étudiants à modéliser un MCD puis écrire les tables SQL correspondantes.
+
+Entités attendues
+- Utilisateurs : leur pseudo, leur date d'inscription, leur pays.
+- Vidéos : un titre court, la date de publication, la durée (en secondes) et le créateur (utilisateur).
+- Sons : un nom, le créateur d'origine et une catégorie (ex : musique, mème, bruitage).
+- Likes : un utilisateur peut aimer une vidéo une seule fois.
+
+Contraintes minimales
+1. Un utilisateur publie 0..n vidéos, mais chaque vidéo a exactement 1 créateur.
+2. Une vidéo utilise exactement 1 son, tandis qu'un même son peut être réutilisé par plusieurs vidéos.
+3. Les likes créent une association plusieurs-à-plusieurs entre utilisateurs et vidéos (table associative avec date du like).
+
+Livrables
+1. Dessiner un MCD clair en identifiant les cardinalités et les clés primaires/étrangères.
+2. Écrire le SQL de création des tables avec des clés primaires, étrangères et des contraintes d'unicité pertinentes (par exemple, un like unique par couple utilisateur/vidéo).
+
+Conseils
+- Utilise des noms simples et cohérents (snake_case recommandé pour le SQL).
+- Ajoute quelques attributs basiques mais évite les détails avancés (pas besoin de stockage vidéo réel).
+- Vérifie que toutes les relations du MCD se retrouvent dans le SQL.

@@ -1,0 +1,22 @@
+Contexte
+Modéliser un réseau combinant lignes de métro et de RER pour aider les étudiants à produire un MCD puis les tables SQL correspondantes.
+
+Entités attendues
+- Lignes : nom, type (Métro ou RER), couleur officielle, date de mise en service.
+- Stations : nom, arrondissement/ville, accessibilité PMR (oui/non).
+- Tronçons : relient deux stations consécutives d'une même ligne avec une durée moyenne de trajet.
+- Correspondances : indiquent que deux lignes différentes partagent la même station.
+
+Contraintes minimales
+1. Une ligne dessert plusieurs stations dans un ordre donné ; chaque station appartient à au moins une ligne.
+2. Les tronçons représentent l'enchaînement des stations sur une ligne (station_depart, station_arrivee, numéro d'ordre facultatif pour simplifier).
+3. Les correspondances mettent en relation deux lignes distinctes via une station commune (association plusieurs-à-plusieurs).
+
+Livrables
+1. Dessiner un MCD en précisant cardinalités, identifiants, et attributs principaux.
+2. Rédiger le SQL de création des tables avec clés primaires, étrangères et contraintes (ex : empêcher les tronçons en double, interdire qu'une correspondance relie une ligne à elle-même).
+
+Conseils
+- Distingue clairement les relations séquentielles (tronçons) des relations croisées (correspondances).
+- Utilise des types simples (VARCHAR, BOOLEAN, INTEGER) et des clés artificielles si besoin.
+- Vérifie que chaque relation du MCD a sa table ou sa clé étrangère correspondante dans le SQL final.
