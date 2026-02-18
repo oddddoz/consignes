@@ -345,14 +345,13 @@ Dans le dossier `club_football`, créez un fichier `RENDU.txt` contenant :
 1. **Vos informations :**
    - Nom, prénom, classe
 
-2. **Réponses aux 17 questions** numérotées clairement, avec les liens des ressources utilisées pour répondre aux questions
+2. **Réponses aux 17 questions** numérotées clairement, avec les liens des ressources utilisées pour répondre aux questions (optionnel)
 
-3. **Les 5 concepts PHP que vous avez trouvés les plus importants** avec une courte explication de chacun
+3. **Compréssez le dossier qui contient tout vos fichier `.php`** et nommez le **prenom_nom.zip** (exemple: `antoine_oddoz.zip`)
 
-4. **Un screenshot** de votre tableau affichant au moins 3 licenciés depuis la base de données
-
-5. **Les difficultés rencontrées** et comment vous les avez surmontées
-
+4. **Uploadez ce fichier sur le lien dropbox correspondant à votre classe**
+   - Pour la A ici: [TSIO_A Dropbox](https://www.dropbox.com/request/BLT2gF2L8XsnfYSnwCz2)
+   - Pour la B ici: [TSIO_B Dropbox](https://www.dropbox.com/request/vi19eznl0rZkGfQqWnNr)
 ---
 
 ## Critères d'évaluation
