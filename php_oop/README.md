@@ -53,8 +53,8 @@ Chaque partie ci-dessous introduit un concept POO, une action concrète et une m
 2. Concevoir au moins deux capacités en utilisant la classe `Ability`.
 3. Charger son ultimate jusqu’à ce qu’il soit prêt et afficher son état dans le terminal.
 
-## Ressources rapides
-- Doc PHP sur les classes : https://www.php.net/manual/fr/language.oop5.php
-- Commande pour relancer le script : `php index.php`
+## ALLER CHERCHER SUR INTERNET OU CHATGPT QUAND VOUS NE COMPRENEZ PAS UNE LIGNE
 
-Amusez-vous à créer votre propre stratégie Valorant tout en apprenant la POO !
+Une fonction ou de la syntaxe qui vous semble obscure?
+
+-> go check internet ou demander a une IA de vous expliquer en précisant que vous êtes débutants
