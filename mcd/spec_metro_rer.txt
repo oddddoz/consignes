@@ -1,6 +1,3 @@
-Contexte
-Modéliser un réseau combinant lignes de métro et de RER pour aider les étudiants à produire un MCD puis les tables SQL correspondantes.
-
 Entités attendues
 - Lignes : nom, type (Métro ou RER), couleur officielle, date de mise en service.
 - Stations : nom, arrondissement/ville, accessibilité PMR (oui/non).

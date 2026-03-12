@@ -1,6 +1,3 @@
-Contexte
-Créer un mini-système inspiré de TikTok pour aider les étudiants à modéliser un MCD puis écrire les tables SQL correspondantes.
-
 Entités attendues
 - Utilisateurs : leur pseudo, leur date d'inscription, leur pays.
 - Vidéos : un titre court, la date de publication, la durée (en secondes) et le créateur (utilisateur).
